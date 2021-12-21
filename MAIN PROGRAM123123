@@ -1,0 +1,113 @@
+def Fx():
+    Q1 =input("Do you need the guidebook?y or n")
+    if Q1 == ("y"):
+        print("GUIDEBOOK")
+        print("So all you do is enter either ft to m or m to ft ft stands for Feet m stands for meters")
+    print("#################################")
+    print("CODECREATION (METER AND FEET CALCULATOR)")
+    print("#################################")
+    input1 = input('ft to m or m to ft? ')
+    #
+    if input1 == 'ft to m':
+        feet = float(input('enter ft: '))
+        meter = feet *0.3048
+        print(meter)
+
+    if input1 == 'm to ft':
+        meter = float(input('enter m: '))
+        feet = meter/0.3048
+        print(feet)
+    print("--------------------------")
+    print("CODECREATIONS, ALL RIGHTS RESERVED")
+    print("--------------------------")
+def F1():
+    pounds =float(input('Enter weight in Pounds(Lbs) to Convert into Kilograms:'))
+    kilo_grams = pounds * 0.453592
+    print(pounds,' Pounds (Lbs) are equal to', kilo_grams,'Kilograms (Kgs)')
+    #Outa
+def F2():
+    kilo_grams =float(input('Enter weight in kg  to Convert into lbs:'))
+    pounds = kilo_grams / 0.453592
+    print(kilo_grams,' kilograms(kg) are equal to', pounds,'Pounds(lbs)')
+def F00():
+    print("REFINED GUIDEBOOK*2022*")
+    print("when you first get in youll see either to do LBS conversion or KG conversion depending on what your needs are")
+    print("lets just chose lbs as an example enter 50 just the number no lbs then the awnser: 22 kg is shown and the exact same for the kilogram side, END OF GUIDEBOOK")
+def F0():
+    print("GUIDEBOOK(*2022*) To Use when the first awnser pops up type either kg(for kilogram) or lbs(for pounds) ")
+    print("then the next type the wanted amount to convert then wait and the results will pop up first of the two will be the one")
+    print("you picked and the second the one you wanted to convert to..")
+    F0Q =input("Did you understand that?y or n")
+    if F0Q == ("n"):
+        F00()
+def KGCAL():
+    Q1 =input("do you need a guidebook?y or n")
+    if Q1 == ("y"):
+        print("GUIDE 2022")
+        print("So enter your naem where name is enter height where height is enter weight where weight is ect")
+        print("its pretty simple so realy no explaning")
+    print("################################################")
+    print("CODECREATIONS® (BMI CALCULATOR [KG EDTION]")
+    print("################################################")
+    name =input("whats your name?")
+    print(name)
+    print("alright next one")
+    weight_kg =float(input("whats your weight in kilo grams?"))
+    print(weight_kg)
+    print("Correct? Alright next one")
+    height_m =float(input("whats your height in meters?")) 
+    print(height_m)
+    bmi = weight_kg / (height_m ** 2)
+    print("bmi: ")
+    print(bmi)
+    if bmi > 25:
+        print(name)
+        print("is overweight")
+    elif bmi < 25:
+        print(name)
+        print("is not overweight")
+    else:
+        print(name)
+        print("sorry for the promblem we will get it fixed as soon as possible")
+    print("********************************************")
+    print("CODECREATIONS®, ALL RIGHTS RESERVED")
+    print("********************************************")
+    #SPACE
+def LK():
+    print("LBS AND KG CONVERTER")
+    Qouta =input("Welcome to kg to lbs or lbs to kg this is the guidbook if you want full guide please awnser(y)if not(n)")
+    if Qouta == ("y"):
+        F0()
+    else:
+        print("You chose to not view the guidbook or wrongly type, either way here is the program")
+        print("####################################################")
+        print("CODECREATIONS® (KILOGRAM AND POUND CONVERTER)")  
+        print("####################################################")
+        Q =input("do you want to convert *kg* or *lbs*")
+        if Q == ("lbs"):
+            F1()
+        elif Q == ("kg"):
+            F2()
+        else:
+            print("error please try to only use lowercase letters and not the *' when entering.'")
+            print("-----------------------------------------------------------")
+            print("Thanks For Using Our program hoped you enjoyed it!")
+            print("**********************************************************")
+            print("CODECREATIONS®, ALL RIGHTS RESERVED")
+            print("**********************************************************")
+print("Pounds And Kilograms Converter(1)--------BMI CALCULATOR[KG](2)------------FEET AND METER CONVERTER(3)---------   ")
+MA =input("Which Program do you want to use?")
+if MA == ("0"):
+   print("METERTOFT.py(1)========BMICAL.py(1)===========") 
+   Sd =input("WHAT FILE DO YOU WANT TO ACESS?")
+   if Sd == ("1"):
+       print("")
+elif MA == ("1"):
+    LK()
+elif MA == ("2"):
+    KGCAL()
+elif MA == ("3"):
+    Fx()
+else:
+    print("COMING SOON")
+      
