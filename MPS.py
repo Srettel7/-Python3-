@@ -1,10 +1,11 @@
+print("For The Code Please Go to github.com/Srettel7 And Look In Look Here!")
 def Fx():
     Q1 =input("Do you need the guidebook?y or n")
     if Q1 == ("y"):
         print("GUIDEBOOK")
         print("So all you do is enter either ft to m or m to ft ft stands for Feet m stands for meters")
     print("#################################")
-    print("CODECREATION (METER AND FEET CALCULATOR)")
+    print("github.com/Srettel7 (METER AND FEET CALCULATOR)")
     print("#################################")
     input1 = input('ft to m or m to ft? ')
     #
@@ -18,7 +19,7 @@ def Fx():
         feet = meter/0.3048
         print(feet)
     print("--------------------------")
-    print("CODECREATIONS, ALL RIGHTS RESERVED")
+    print("github.com/Srettel7")
     print("--------------------------")
 def F1():
     pounds =float(input('Enter weight in Pounds(Lbs) to Convert into Kilograms:'))
@@ -47,7 +48,7 @@ def KGCAL():
         print("So enter your naem where name is enter height where height is enter weight where weight is ect")
         print("its pretty simple so realy no explaning")
     print("################################################")
-    print("CODECREATIONS® (BMI CALCULATOR [KG EDTION]")
+    print("github.com/Srettel7 (BMI CALCULATOR [KG EDTION]")
     print("################################################")
     name =input("whats your name?")
     print(name)
@@ -70,7 +71,7 @@ def KGCAL():
         print(name)
         print("sorry for the promblem we will get it fixed as soon as possible")
     print("********************************************")
-    print("CODECREATIONS®, ALL RIGHTS RESERVED")
+    print("github.com/Srettel7")
     print("********************************************")
     #SPACE
 def LK():
@@ -80,9 +81,10 @@ def LK():
         F0()
     else:
         print("You chose to not view the guidbook or wrongly type, either way here is the program")
-        print("####################################################")
-        print("CODECREATIONS® (KILOGRAM AND POUND CONVERTER)")  
-        print("####################################################")
+        print("********************")
+        print("github.com/Srettel7")  
+        print("********************")
+        #Space
         Q =input("do you want to convert *kg* or *lbs*")
         if Q == ("lbs"):
             F1()
@@ -93,15 +95,15 @@ def LK():
             print("-----------------------------------------------------------")
             print("Thanks For Using Our program hoped you enjoyed it!")
             print("**********************************************************")
-            print("CODECREATIONS®, ALL RIGHTS RESERVED")
+            print("github.com/Srettel7")
             print("**********************************************************")
 print("Pounds And Kilograms Converter(1)--------BMI CALCULATOR[KG](2)------------FEET AND METER CONVERTER(3)---------   ")
 MA =input("Which Program do you want to use?")
 if MA == ("0"):
-   print("METERTOFT.py(1)========BMICAL.py(1)===========") 
-   Sd =input("WHAT FILE DO YOU WANT TO ACESS?")
+   print("lucastietz1@gmail.com") 
+   Sd =input("Email press(1)")
    if Sd == ("1"):
-       print("")
+       print("please email me at the shown email")
 elif MA == ("1"):
     LK()
 elif MA == ("2"):
