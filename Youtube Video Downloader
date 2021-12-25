@@ -1,0 +1,9 @@
+#pip install pytube | if you hav'nt already
+from pytube import YouTube
+URL = "Enter video URL"
+video = YouTube(URL)
+video_streams = video.streams.filter(file_extension='mp4').get_by_itag(18)
+video_streams.download(filename = "my first YouTube download2",
+	output_path = "video_path")
+print("It is Downloading!")
+print("github.com/Srettel7")
