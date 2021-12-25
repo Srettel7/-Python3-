@@ -1,0 +1,24 @@
+def clear():
+        os.system("clear")
+print("Welcome to QuoNote!Insert Your Note Below")
+Notepad =input("")
+print("To Save Your Work Save The .py file")
+print("press enter when done (1)to copy to clipboard (2)To Quit")
+#pip install language-tool-Python
+import language_tool_python
+tool = language_tool_python.LanguageTool('en-US')
+text = Notepad
+tool.correct(text)
+def Copyy():
+    import pyperclip
+    pyperclip.copy(Notepad)
+    spam = pyperclip.paste()
+QCopy =input("")
+if QCopy == ("1"):
+    Copyy()
+elif QCopy == ("2"):
+    clear()
+    print("QUIT")
+else:
+    print("Typed Wrong")
+    continue
