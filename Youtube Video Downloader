@@ -1,9 +1,31 @@
+#this is the timer that will tell it how long it will take
+def countdownclock():
+    import time
+
+
+    def countdown(count):
+        while count:
+            mins, secs = divmod(count, 60)
+            timer = "{:02d}:{:02d}".format(mins, secs)
+            print(timer, end="\r")
+            time.sleep(1)
+            count -= 1
+        print("Downloaded!")
+
+
+    count = ("5")
+
+
+    countdown(int(count))
+
 #pip install pytube | if you hav'nt already
 from pytube import YouTube
-URL = "Enter video URL"
+URL =input("Enter the URL:")
 video = YouTube(URL)
 video_streams = video.streams.filter(file_extension='mp4').get_by_itag(18)
-video_streams.download(filename = "my first YouTube download2",
+video_streams.download(filename = "Downloaed Video1",
 	output_path = "video_path")
 print("It is Downloading!")
+countdownclock()
 print("github.com/Srettel7")
+
